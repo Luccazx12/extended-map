@@ -12,7 +12,9 @@
         "url": "https://github.com/luccazx12/extended-map.git"
     },
     "main": "dist/index.js",
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
@@ -49,5 +51,8 @@
         ],
         "coverageDirectory": "../coverage",
         "testEnvironment": "node"
+    },
+    "dependencies": {
+        "@luccazx12/exceptions-base": "^1.0.0"
     }
 }
