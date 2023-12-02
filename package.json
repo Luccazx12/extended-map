@@ -1,6 +1,6 @@
 {
     "name": "@luccazx12/extended-map",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "An extension of the native JavaScript Map with additional utility methods",
     "author": {
         "name": "Mario Padrao",
